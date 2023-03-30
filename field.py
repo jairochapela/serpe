@@ -3,4 +3,4 @@ class Field:
         self.surface = surface
 
     def draw(self):
-        pass
+        self.surface.fill((0,0,0))
